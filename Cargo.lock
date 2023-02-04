@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "unindent"
+name = "unindenter"
 version = "0.1.0"

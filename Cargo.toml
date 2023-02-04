@@ -1,8 +1,8 @@
 [package]
-name = "unindent"
+name = "unindenter"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+maintainers = ["Diaa Kasem<me@diaa.me>"]
+description = "A simple tool to unindent text"
 
 [dependencies]

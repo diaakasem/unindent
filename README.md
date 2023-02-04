@@ -1,21 +1,22 @@
-# unindent
+# unindenter
 
-Unindent is a command-line utility written in Rust that removes leading white spaces from text read from stdin. The goal of this utility is to make it easier to work with indented text by removing the leading whitespaces and making the text more readable.
+Unindenter is a command-line utility written in Rust that removes leading white spaces from text read from stdin.
+The goal of this utility is to make it easier to work with indented text by removing the leading whitespaces and making the text more readable.
 
 ## Installation
 
-You can install the unindent-tool by using cargo:
+You can install the unindenter by using cargo:
 
 ```bash
-cargo install unindent
+cargo install --locked unindenter
 ```
 
 ## Usage
 
-You can use `unindent` by piping text into it:
+You can use `unindenter` by piping text into it:
 
 ```bash
-echo "    Indented text" | unindent
+echo "    Indented text" | unindenter
 ```
 
 This will output:
@@ -25,15 +26,15 @@ This will output:
 Indented text
 ```
 
-You can also use `unindent` as part of a larger pipeline:
+You can also use `unindenter` as part of a larger pipeline:
 
 ```bash
-cat indented-file.txt | unindent | some-other-command
+cat indented-file.txt | unindenter | some-other-command
 ```
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to ```unindent``` project, please open an issue or a pull request.
+Contributions are welcome! If you'd like to contribute to ```unindenter``` project, please open an issue or a pull request.
 
 ## License
 
