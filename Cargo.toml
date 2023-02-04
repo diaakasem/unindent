@@ -4,5 +4,10 @@ version = "0.1.0"
 edition = "2021"
 maintainers = ["Diaa Kasem<me@diaa.me>"]
 description = "A simple tool to unindent text"
+repository = "https://github.com/diaakasem/unindenter"
+license = "MIT"
+keywords = ["unindent", "text", "indent"]
+categories = ["text-processing"]
+readme = "README.md"
 
 [dependencies]
